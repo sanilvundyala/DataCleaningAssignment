@@ -40,9 +40,9 @@ run_analysis <- function(){
   
   # 3. Uses descriptive activity names to name the activities in the data set
   tidy_data$code <- activity_labels[tidy_data$code,2]
+  names(tidy_data)[2] <- "activity"
   
   # 4. Appropriately labels the data set with descriptive variable names.
-  names(tidy_data)[2] <- "activity"
   names(tidy_data)<-gsub("Acc", "Accelerometer", names(tidy_data))
   names(tidy_data)<-gsub("Gyro", "Gyroscope", names(tidy_data))
   names(tidy_data)<-gsub("BodyBody", "Body", names(tidy_data))
