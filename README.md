@@ -8,7 +8,7 @@ Repository contains instructions and code for tidying data from UCI Machine Lear
 [Human Activity Recognition Using Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 ## Files
-- **CodeBook.md** : Code book that describes the variables, the data, and any transformations or work that were performed to clean up the data.
+- **CodeBook.md** : Code book that describes the transformations or work that is performed in the script to clean up the data.
 - **run_analysis.R** :  
   1. Merges the training and the test sets to create one data set.
   2. Extracts only the measurements on the mean and standard deviation for each measurement.
